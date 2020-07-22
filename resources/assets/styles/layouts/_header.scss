@@ -2,11 +2,17 @@
   @extend .nav-item;
 }
 
+.navbar-nav {
+  a {
+    color: #fff;
+  }
+}
+
 .banner .nav a {
   @extend .nav-link;
 }
 
-.banner .container {
+.banner .container .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -97,11 +103,5 @@
     -moz-transform: rotate(-135deg);
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
-  }
-}
-
-#navbar-collapse {
-  a {
-    color: #fff;
   }
 }
