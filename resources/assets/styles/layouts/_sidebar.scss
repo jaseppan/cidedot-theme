@@ -1,0 +1,18 @@
+.sidebar {
+  background-color: #ecedf1;
+  padding: 1.5rem;
+  color: $bg-dark;
+  font-size: 90%;
+  height: 100vh;
+}
+
+#face {
+  border-radius: 20rem;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    height: 100%;
+  }
+}

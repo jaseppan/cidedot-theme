@@ -3,37 +3,62 @@
 }
 
 .navbar-nav {
+  text-align: right;
+  margin: 0.5rem 1rem 1rem;
+
+  .nav-link {
+    padding: 0.2rem;
+    letter-spacing: 0.1rem;
+  }
+
   a {
-    color: #fff;
+    color: $gray-800;
+    font-family: "Rosario", sans-serif;
   }
 }
 
-.banner .nav a {
-  @extend .nav-link;
+.navbar {
+  justify-content: end;
+  padding: 1rem 0;
 }
 
-.banner .container .navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.nav-primary ul {
+  margin: 1em 0.5em;
+  text-align: center;
 
-  .navbar {
-    padding: 1rem 0;
+  .main-nav li {
+    display: inline;
   }
 
-  .nav-primary ul {
-    margin: 1em 0.5em;
-    text-align: center;
+  .main-nav a {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+  }
+}
 
-    .main-nav li {
-      display: inline;
-    }
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
-    .main-nav a {
-      display: inline-block;
-      padding: 0.5em 1.5em;
-    }
+#site-identity {
+  width: 100%;
+  font-family: "Rosario", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  padding: 30px;
+  position: relative;
+  margin: -1rem 0 0 1rem;
+
+  .navbar-brand {
+    margin: 0;
+  }
+
+  a {
+    font-family: "Rosario", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
   }
 }
 
@@ -41,7 +66,9 @@
 .animated-icon {
   width: 30px;
   height: 20px;
-  position: relative;
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
   margin: 0;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -69,7 +96,7 @@
     -moz-transition: 0.25s ease-in-out;
     -o-transition: 0.25s ease-in-out;
     transition: 0.25s ease-in-out;
-    background: theme-color("dark");
+    background: theme-color("light");
 
     &:nth-child(1) {
       top: 0;

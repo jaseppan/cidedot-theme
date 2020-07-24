@@ -4,8 +4,17 @@
 $theme-colors: (
   "primary": #0074d9,
   "danger": #ff4136,
+  "info": #ecedf1,
+  "dark": #535353,
 );
+
+$container-large-desktop: "1800px";
+$bg-dark: #535353;
+$gray-light: #ccc;
 
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 $navbar-dark-toggler-icon-bg: none;
 $navbar-light-toggler-icon-bg: none;
+
+/** Import Google Fonts **/
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Rosario&display=swap");

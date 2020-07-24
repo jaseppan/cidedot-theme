@@ -2,18 +2,23 @@
 <html {!! get_language_attributes() !!}>
   @include('partials.head')
   <body @php body_class() @endphp>
-    @php do_action('get_header') @endphp
-    @include('partials.header')
     <div class="wrap container" role="document">
-      <div class="content">
-        <main class="main">
-          @yield('content')
-        </main>
-        @if (App\display_sidebar())
+    
+      <div class="row">
+        <div id="widgets-container" class="col-lg-3 col-md-4">
           <aside class="sidebar">
             @include('partials.sidebar')
-          </aside>
-        @endif
+         </aside>
+        </div>
+        <div id="content-container" class="col-lg-9 col-md-8">
+          @php do_action('get_header') @endphp
+          @include('partials.header')
+          <div class="content">
+            <main class="main">
+              @yield('content')
+            </main>
+          </div>
+        </div>
       </div>
     </div>
     @php do_action('get_footer') @endphp
