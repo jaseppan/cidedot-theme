@@ -1,2 +1,2 @@
-<div id="face" style="margin: auto;height: 200px; width: 200px; background: url(http://www.runolaulu.fi/kansanmusiikki/images/img_3275.jpg); background-position: center"></div>
+<div id="face" style="margin: auto;height: 170px; width: 170px; background: url(http://www.runolaulu.fi/kansanmusiikki/images/img_3275.jpg); background-position: center; margin-bottom:20px"></div>
 @php dynamic_sidebar('sidebar-primary') @endphp

@@ -1,9 +1,15 @@
 .sidebar {
   background-color: #ecedf1;
-  padding: 1.5rem;
+  padding: 1rem 1.5rem;
   color: $bg-dark;
   font-size: 90%;
   height: 100vh;
+  line-height: 1.6;
+
+  a {
+    color: $bg-dark;
+    text-decoration: none;
+  }
 }
 
 #face {
