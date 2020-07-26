@@ -1,14 +1,24 @@
-.sidebar {
-  background-color: #ecedf1;
-  padding: 1rem 1.5rem;
-  color: $bg-dark;
-  font-size: 90%;
-  height: 100vh;
-  line-height: 1.6;
+#widgets-container {
+  padding: 0;
 
-  a {
+  .sidebar {
+    background-color: #e3e4e8;
+    padding: 1rem 1.5rem;
     color: $bg-dark;
-    text-decoration: none;
+    font-size: 90%;
+    height: 100vh;
+    line-height: 1.6;
+
+    a {
+      color: $bg-dark;
+      text-decoration: none;
+    }
+
+    ul {
+      li {
+        margin-left: -1.6rem;
+      }
+    }
   }
 }
 
