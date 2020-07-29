@@ -1,9 +1,7 @@
-# [Sage](https://roots.io/sage/)
-[![Packagist](https://img.shields.io/packagist/vpre/roots/sage.svg?style=flat-square)](https://packagist.org/packages/roots/sage)
-[![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/roots/sage#info=devDependencies)
-[![Build Status](https://img.shields.io/travis/roots/sage.svg?style=flat-square)](https://travis-ci.org/roots/sage)
+# [Cidedot theme](https://janne.cidedot.com/tietoja-sivustosta/)
+[![Packagist](https://img.shields.io/packagist/vpre/roots/sage.svg?style=flat-square)](https://github.com/jaseppan/cidedot-theme)
 
-Sage is a WordPress starter theme with a modern development workflow.
+Sage (roots.io) based theme for curriculum vitae site.
 
 ## Features
 
@@ -26,23 +24,18 @@ Make sure all dependencies have been installed before moving on:
 * [Composer](https://getcomposer.org/download/)
 * [Node.js](http://nodejs.org/) >= 8.0.0
 * [Yarn](https://yarnpkg.com/en/docs/install)
+* [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
 
-## Theme installation
-
-Install Sage using Composer from your WordPress themes directory (replace `your-theme-name` below with the name of your theme):
-
-```shell
-# @ app/themes/ or wp-content/themes/
-$ composer create-project roots/sage your-theme-name
-```
-
-To install the latest development version of Sage, add `dev-master` to the end of the command:
+## Theme installation (one way)
 
 ```shell
-$ composer create-project roots/sage your-theme-name dev-master
+$ git clone https://github.com/jaseppan/cidedot-theme.git
+$ composer install --no-dev
+$ yarn install
+$ yarn build:production
 ```
 
-During theme installation you will have options to update `style.css` theme headers, select a CSS framework, and configure Browsersync.
+More information: https://roots.io/docs/sage/9.x/deployment/
 
 ## Theme structure
 
