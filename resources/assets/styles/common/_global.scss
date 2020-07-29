@@ -56,6 +56,11 @@ a {
   display: none;
 }
 
+.btn-primary {
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+}
+
 /* Typography */
 
 h1,
@@ -108,6 +113,12 @@ blockquote {
     line-height: 0.1em;
     margin-right: 0.25em;
     vertical-align: -0.4em;
+  }
+
+  &::after {
+    opacity: 0;
+    content: close-quote;
+    position: absolute;
   }
 
   p {
