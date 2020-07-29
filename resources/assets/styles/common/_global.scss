@@ -73,6 +73,7 @@ h1 {
   font-family: "Rosario", sans-serif;
   letter-spacing: 0.1rem;
   border-bottom: solid 2px $gray-light;
+  margin: 0 0 0.8rem 0;
 }
 
 h2,
@@ -83,6 +84,44 @@ h3 {
 
 p {
   font-family: "Lato", sans-serif;
+
+  a {
+    color: #66694a;
+
+    &:hover {
+      color: #000;
+      text-decoration: none;
+    }
+  }
+}
+
+blockquote {
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+
+  &::before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+
+  p {
+    font-size: 0.95rem !important;
+  }
+
+  .author {
+    text-align: right;
+    font-style: italic;
+
+    &::before {
+      content: "— ";
+    }
+  }
 }
 
 .main p {
@@ -93,6 +132,17 @@ p {
 .svg-inline--fa {
   font-size: rem;
   margin-right: 0.5rem;
+}
+
+@media only screen and (min-width: 769px) {
+  #main-row {
+    overflow: hidden;
+
+    [class*="col-"] {
+      margin-bottom: -99999px;
+      padding-bottom: 99999px;
+    }
+  }
 }
 
 @media only screen and (max-width: 768px) {

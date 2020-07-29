@@ -4,7 +4,7 @@
   <body @php body_class() @endphp>
     <div class="wrap container" role="document">
     
-      <div class="row">
+      <div id="main-row" class="row">
         <div id="widgets-container" class="col-lg-3 col-md-4">
           <aside class="sidebar">
             @include('partials.sidebar')
