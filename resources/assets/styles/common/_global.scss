@@ -145,7 +145,7 @@ blockquote {
   margin-right: 0.5rem;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
   #main-row {
     overflow: hidden;
 
@@ -156,7 +156,7 @@ blockquote {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   #widgets-container {
     order: 2;
     padding: 0;
