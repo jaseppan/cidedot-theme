@@ -79,8 +79,12 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-regular-svg-icons": "^5.14.0",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "axios": "^0.19.2",
     "bootstrap": "v4.3.1",
+    "graphqlgen": "^0.6.0-rc9",
     "jquery": "^3.3.1",
+    "lodash": "^4.17.19",
+    "lodash.template": "^4.5.0",
     "popper.js": "^1.14.7"
   }
 }
