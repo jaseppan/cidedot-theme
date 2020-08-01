@@ -6,7 +6,7 @@
         <span class="divider"></span>
         <br /><span class="text-light">Web developer</span>
         <div class="navbar-header">
-          <div id="navbar-toggler" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
+          <div id="navbar-toggler" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-label="Toggle navigation" role="button">
             <div class="animated-icon"><span></span><span></span><span></span></div>
           </div>
         </div>
