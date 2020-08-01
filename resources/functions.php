@@ -90,3 +90,10 @@ Container::getInstance()
             'view' => require dirname(__DIR__).'/config/view.php',
         ]);
     }, true);
+
+    add_action(
+        'after_setup_theme',
+        function() {
+            add_theme_support( 'html5', [ 'script', 'style' ] );
+        }
+    );
