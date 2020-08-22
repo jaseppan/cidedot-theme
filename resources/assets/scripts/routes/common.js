@@ -7,14 +7,6 @@ export default {
       $('#site-identity .divider').toggleClass('hidden');
       $('#site-identity').toggleClass('collapsed');
     });
-    //$('.second-button').on('click', function () {
-  //
-    //  $('.animated-icon2').toggleClass('open');
-    //});
-    //$('.third-button').on('click', function () {
-  //
-    //  $('.animated-icon3').toggleClass('open');
-    //});
     $(document).ready(function() {
       $('.animated-icon').addClass('notice');
     });
