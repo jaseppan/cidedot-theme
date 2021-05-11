@@ -83,7 +83,7 @@
     "bootstrap": "v4.3.1",
     "graphqlgen": "^0.6.0-rc9",
     "jquery": "^3.3.1",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "lodash.template": "^4.5.0",
     "popper.js": "^1.14.7"
   }
